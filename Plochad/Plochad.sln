@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plochad", "Plochad.csproj", "{BD6AC23E-5E8F-424F-9845-F2B049A159B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlochadTests", "..\PlochadTests\PlochadTests.csproj", "{48766319-BBF3-448D-A2D3-1E36D76A6E0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD6AC23E-5E8F-424F-9845-F2B049A159B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD6AC23E-5E8F-424F-9845-F2B049A159B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD6AC23E-5E8F-424F-9845-F2B049A159B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD6AC23E-5E8F-424F-9845-F2B049A159B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48766319-BBF3-448D-A2D3-1E36D76A6E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48766319-BBF3-448D-A2D3-1E36D76A6E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48766319-BBF3-448D-A2D3-1E36D76A6E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48766319-BBF3-448D-A2D3-1E36D76A6E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93CCB1B9-9F1B-43C5-A26B-B7F189D4F21A}
+	EndGlobalSection
+EndGlobal

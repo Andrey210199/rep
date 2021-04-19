@@ -1,0 +1,12 @@
+D:\Загрузки\Работа\Library\Plochad\bin\Debug\net5.0\Plochad.deps.json
+D:\Загрузки\Работа\Library\Plochad\bin\Debug\net5.0\Plochad.dll
+D:\Загрузки\Работа\Library\Plochad\bin\Debug\net5.0\ref\Plochad.dll
+D:\Загрузки\Работа\Library\Plochad\bin\Debug\net5.0\Plochad.pdb
+D:\Загрузки\Работа\Library\Plochad\obj\Debug\net5.0\Plochad.csprojAssemblyReference.cache
+D:\Загрузки\Работа\Library\Plochad\obj\Debug\net5.0\Plochad.GeneratedMSBuildEditorConfig.editorconfig
+D:\Загрузки\Работа\Library\Plochad\obj\Debug\net5.0\Plochad.AssemblyInfoInputs.cache
+D:\Загрузки\Работа\Library\Plochad\obj\Debug\net5.0\Plochad.AssemblyInfo.cs
+D:\Загрузки\Работа\Library\Plochad\obj\Debug\net5.0\Plochad.csproj.CoreCompileInputs.cache
+D:\Загрузки\Работа\Library\Plochad\obj\Debug\net5.0\Plochad.dll
+D:\Загрузки\Работа\Library\Plochad\obj\Debug\net5.0\ref\Plochad.dll
+D:\Загрузки\Работа\Library\Plochad\obj\Debug\net5.0\Plochad.pdb

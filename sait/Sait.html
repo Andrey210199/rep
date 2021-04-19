@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Шаблон</title>
+
+	<link rel="stylesheet" type="text/css" href="css/Sait.css">
+</head>
+
+<body>
+		<header>
+
+			<div class="sots">
+				<a href="">	<img class="social" src="images/social_icon/facebook-logo.png" alt="no image"> </a>
+				<a href=""> <img class="social" src="images/social_icon/twitter-social-logotype.png" alt="no image"> </a>
+				<a href=""> <img class="social" src="images/social_icon/pinterest-social-logo.png" alt="no image"> </a>
+
+				<div class="hedlink">
+				<a href=""><b>СВЯЗАТСЯ С НАМИ</b></a>
+				<a href=""><b class="end">FAQS</b></a>
+				</div>
+
+			</div>
+
+			<div class="shapka">
+				<a href=""><img class="logo" src="images/hst_logo.png" alt="no image"></a>
+
+				<div class="poisk">
+				<input placeholder="Поиск">
+					<button><img src="images/social_icon/search.png" alt="no image"></button>
+
+				</div>
+
+				<a href=""><b>Вход/Регистрация</b></a>
+
+				<a href=""> <img src="images/social_icon/wishlist.png" alt="Избранное"> </a>
+				<a href=""> <img src="images/social_icon/compare.png" alt="Сравнить товар"> </a>
+				<a href=""> <img src="images/social_icon/shopping-cart.png" alt="Корзина"> </a>
+
+			</div>
+
+			<div class="meny">
+
+				<b>Главная</b>
+			</div>
+
+		</header>
+
+	<section class="content">
+
+		<!--Слайдер-->
+		<div class="slider">
+			
+			<ul class="slider-list">
+				
+				<li><img src="images/white.png" alt="screen"></li>
+				<li class="slider-element"><img src="images/pri-pokupke-kofemashiny-nespresso-kapsuly-v-podarok.png" alt = "0"></li>
+				<li class="slider-element"><img src="images/3-nasadki-v-podarok.png" alt = "1"></li>
+				<li class="slider-element"><img src="images/duhovki.png" alt="2"></li>
+			</ul>
+
+			<div class="arrow-left"></div>
+			<div class="arrow-right"></div>
+			<div class="slider-dots"></div>
+			
+		</div>
+
+		<!--Рекомендуемые категории товаров-->
+		<div class="categor_rec">
+			<h3 class="title">Популярные категории</h3>
+
+			<div class="categor_cont">
+			<a href="" class="categor" id="glav"> <img src="images/krupnaya-kuhonnaya-tehnika.jpg" alt="Нет изображения"><b>Крупная бытовая техника</b></a>
+
+				<div class="flex-content">
+				<div class="dop">
+			<a href="" class="categor"> <img src="images/teh-dlya-doma.jpg" alt="Нет изображения"><b>Течника для дома</b></a>
+				</div>
+
+				<div class="dop">
+			<a href="" class="categor"> <img src="images/tehnika-dlya-doma.png" alt="Нет изображения"> <b>Техника для кухни</b></a>
+				</div>
+
+				<div class="dop">
+			<a href="" class="categor"> <img src="images/kofevarki-i-kofemashiny.jpg" alt="Нет изображения"> <b>Кофеварки и кофемашины</b></a>
+				</div>
+
+				<div class="dop">
+			<a href="" class="categor"> <img src="images/melkaya-kuhonnaya-tehnika.jpg" alt="Нет изображения"> <b>Мелкая кухонная техника</b></a>
+				</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<!--Рекомендуемые товары-->
+		<div class="recomend_tovar">
+
+			<h3 class="title">Популярные товары</h3>
+
+			<!--Вкладки-->
+			<div class="tabs">
+
+				<div class="tabs_nav">
+
+					<button class="tabs-link link-active" href="#content-1">Популярное</button>
+					<button class="tabs-link" href="#content-2">Новинки</button>
+					<button class="tabs-link" href="#content-3">Скидки</button>
+
+				</div>
+
+				<!--Контент для вкладок-->
+				<div class="tabs_content">
+
+					<!--Вкладка популярное-->
+					<div class="pane pane-show" id="content-1">
+
+						<script src="js/slaider.js"></script>
+						<script>new gentovar("images/popular_tovars/tovar","content-1")</script>
+
+					</div>
+
+					<!--Вкладка новинки-->
+					<div class="pane" id="content-2">
+						<script>new gentovar("images/new_tovars/newtovar","content-2")</script>
+					</div>
+
+					<!--Вкладка скидки-->
+					<div class="pane" id="content-3">
+
+						<script>new gentovar("images/seller_tovars/selltovar", "content-3")</script>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<footer>
+
+	</footer>
+
+		<script src="js/slaider.js"></script>
+		<script>new  Sim()</script>
+		<script> new Tab()</script>
+</body>
+
+</html>

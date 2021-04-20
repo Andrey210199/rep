@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZBta/Qy0XwVw/JNJpt274B/8P0tL3Vil7tLExq5/fXRKxOEtxPqEA3pyC/0FSkTBJ1LisA6ggMPEiOWIFDySxA==",
+  "dgSpecHash": "xyM2+qczRj5TXX+V6RigZFu2VqbeOea74PRBzV8pl3yqyWWdsDaq530snZzINKjrb1LxtuNs/mCYOyDMMnyGUw==",
   "success": true,
-  "projectFilePath": "D:\\Загрузки\\Работа\\Library\\PlochadTests\\PlochadTests.csproj",
+  "projectFilePath": "D:\\git\\rep\\rep\\PlochadTests\\PlochadTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrey\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\Andrey\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",

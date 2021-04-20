@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Загрузки\\Работа\\Library\\Plochad\\Plochad.csproj",
+      "projectUniqueName": "D:\\git\\rep\\rep\\Plochad\\Plochad.csproj",
       "projectName": "Plochad",
-      "projectPath": "D:\\Загрузки\\Работа\\Library\\Plochad\\Plochad.csproj",
+      "projectPath": "D:\\git\\rep\\rep\\Plochad\\Plochad.csproj",
       "packagesPath": "C:\\Users\\Andrey\\.nuget\\packages\\",
-      "outputPath": "D:\\Загрузки\\Работа\\Library\\Plochad\\obj\\",
+      "outputPath": "D:\\git\\rep\\rep\\Plochad\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

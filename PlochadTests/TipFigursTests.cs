@@ -21,7 +21,7 @@ namespace Plochad.Tests
             const string expected = "Треугольник прямоугольный";
 
             //act
-            TipFigurs tip= new TipFigurs();
+            TipFigurs tip = new TipFigurs();
             string actual = tip.TipsFigur(a, b, c);
 
             //assert
@@ -46,5 +46,6 @@ namespace Plochad.Tests
 
 
         }
+
     }
 }

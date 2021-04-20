@@ -5739,11 +5739,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Загрузки\\Работа\\Library\\PlochadTests\\PlochadTests.csproj",
+      "projectUniqueName": "D:\\git\\rep\\rep\\PlochadTests\\PlochadTests.csproj",
       "projectName": "PlochadTests",
-      "projectPath": "D:\\Загрузки\\Работа\\Library\\PlochadTests\\PlochadTests.csproj",
+      "projectPath": "D:\\git\\rep\\rep\\PlochadTests\\PlochadTests.csproj",
       "packagesPath": "C:\\Users\\Andrey\\.nuget\\packages\\",
-      "outputPath": "D:\\Загрузки\\Работа\\Library\\PlochadTests\\obj\\",
+      "outputPath": "D:\\git\\rep\\rep\\PlochadTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5764,8 +5764,8 @@
         "net5.0": {
           "targetAlias": ".NETCoreApp,Version=v5.0",
           "projectReferences": {
-            "D:\\Загрузки\\Работа\\Library\\Plochad\\Plochad.csproj": {
-              "projectPath": "D:\\Загрузки\\Работа\\Library\\Plochad\\Plochad.csproj"
+            "D:\\git\\rep\\rep\\Plochad\\Plochad.csproj": {
+              "projectPath": "D:\\git\\rep\\rep\\Plochad\\Plochad.csproj"
             }
           }
         }

@@ -10,7 +10,7 @@ namespace Plochad
     public class provercaValue
     {
         //Определение есть ли степень или корень
-        public Tuple<double, double, double> InValue(string a ="0", string b ="0", string c ="0")
+        public Tuple<double, double, double> InValue(string a = "0", string b = "0", string c = "0")
         {
             double write = 0;
             double one = 0;
@@ -85,7 +85,7 @@ namespace Plochad
     public class SOneValue
     {
         // Площадь круга по радиусу
-        public double SRoundRadius(string radious)
+        public double SRoundRadius(string radious, int tipe =0)
         {
             provercaValue PV = new provercaValue();
             return Math.PI * Math.Pow(PV.InValue(radious).Item1, 2);
@@ -192,22 +192,42 @@ namespace Plochad
 
         
 
-        public Tuple<double, string> output(string One ="0", string two="0" , string three="0")
+        public Tuple<double, string, int> output(string One ="0", string two="0" , string three="0", int tip=0)
         {
             SOneValue RK = new SOneValue();
             SThreeValue TS = new SThreeValue();
             TipFigurs TP = new TipFigurs();
 
+            if(two =="" && three=="")
+            {
+                two = "0";
+                three = "0";
+            }
+
             string tp = TP.TipsFigur(One,two,three);
 
-            if(tp == "Круг")
+            switch(tip)
             {
-                
-                return Tuple.Create<double, string>(RK.SRoundRadius(One), tp);
-            }
-            else
-            {
-                return Tuple.Create<double, string>(TS.STriangleThreeSide(One,two,three), tp);
+                case 0:
+                    if (tp == "Круг")
+                    {
+
+                        return Tuple.Create <double, string,  int> (RK.SRoundRadius(One), tp, tip);
+                    }
+                    else
+                    {
+                        return Tuple.Create <double, string, int> (TS.STriangleThreeSide(One, two, three), tp, tip);
+                    }
+                    break;
+                case 1:
+                    return Tuple.Create <double, string, int> (RK.SRoundRadius(One), tp, tip);
+                    break;
+                case 2:
+                    return Tuple.Create <double, string, int> (TS.STriangleThreeSide(One, two, three), tp, tip);
+                    break;
+                default:
+                    return Tuple.Create <double, string, int> (0, "Ошибка",tip);
+                    break;
             }
 
         }

@@ -10,3 +10,15 @@ D:\Загрузки\Работа\Library\Plochad\obj\Debug\net5.0\Plochad.csproj
 D:\Загрузки\Работа\Library\Plochad\obj\Debug\net5.0\Plochad.dll
 D:\Загрузки\Работа\Library\Plochad\obj\Debug\net5.0\ref\Plochad.dll
 D:\Загрузки\Работа\Library\Plochad\obj\Debug\net5.0\Plochad.pdb
+D:\git\rep\rep\Plochad\bin\Debug\net5.0\Plochad.deps.json
+D:\git\rep\rep\Plochad\bin\Debug\net5.0\Plochad.dll
+D:\git\rep\rep\Plochad\bin\Debug\net5.0\ref\Plochad.dll
+D:\git\rep\rep\Plochad\bin\Debug\net5.0\Plochad.pdb
+D:\git\rep\rep\Plochad\obj\Debug\net5.0\Plochad.csprojAssemblyReference.cache
+D:\git\rep\rep\Plochad\obj\Debug\net5.0\Plochad.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\rep\rep\Plochad\obj\Debug\net5.0\Plochad.AssemblyInfoInputs.cache
+D:\git\rep\rep\Plochad\obj\Debug\net5.0\Plochad.AssemblyInfo.cs
+D:\git\rep\rep\Plochad\obj\Debug\net5.0\Plochad.csproj.CoreCompileInputs.cache
+D:\git\rep\rep\Plochad\obj\Debug\net5.0\Plochad.dll
+D:\git\rep\rep\Plochad\obj\Debug\net5.0\ref\Plochad.dll
+D:\git\rep\rep\Plochad\obj\Debug\net5.0\Plochad.pdb

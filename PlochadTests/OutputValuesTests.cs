@@ -29,8 +29,8 @@ namespace Plochad.Tests
 
 
             //assert
-            Assert.AreEqual(expected.Item1, actual, delta,"Ожидаемый результат {0}, полученный результат {1}", expected, actual);
-            Assert.AreEqual(expected.Item2, actual1, "Ожидаемый результат {0}, полученный результат {1}", expected, actual);
+            Assert.AreEqual(expected.Item1, actual, delta,"Ожидаемый результат {0}, полученный результат {1}", expected.Item1, actual);
+            Assert.AreEqual(expected.Item2, actual1, "Ожидаемый результат {0}, полученный результат {1}", expected.Item2, actual1);
         }
 
         //Прямоугольник
@@ -50,8 +50,8 @@ namespace Plochad.Tests
 
 
             //assert
-            Assert.AreEqual(expected.Item1, actual, "Ожидаемый результат {0}, полученный результат {1}", expected, actual);
-            Assert.AreEqual(expected.Item2, actual1, "Ожидаемый результат {0}, полученный результат {1}", expected, actual);
+            Assert.AreEqual(expected.Item1, actual, "Ожидаемый результат {0}, полученный результат {1}", expected.Item1, actual);
+            Assert.AreEqual(expected.Item2, actual1, "Ожидаемый результат {0}, полученный результат {1}", expected.Item2, actual1);
         }
 
         // Не прямоугольный треугольник
@@ -72,8 +72,31 @@ namespace Plochad.Tests
 
 
             //assert
-            Assert.AreEqual(expected.Item1, actual, delta, "Ожидаемый результат {0}, полученный результат {1}", expected, actual);
-            Assert.AreEqual(expected.Item2, actual1, "Ожидаемый результат {0}, полученный результат {1}", expected, actual);
+            Assert.AreEqual(expected.Item1, actual, delta, "Ожидаемый результат {0}, полученный результат {1}", expected.Item1, actual);
+            Assert.AreEqual(expected.Item2, actual1, "Ожидаемый результат {0}, полученный результат {1}", expected.Item2, actual1);
+        }
+
+        //Тестирование ручного определения
+        [TestMethod()]
+        public void output_3_1_round()
+        {
+            //arrange
+            const string a = "10";
+            const int tip = 1;
+            Tuple<double, string, int> expected = Tuple.Create<double, string,int>(314.15, "Круг", 1);
+            const double delta = 0.03;
+
+            //act
+            OutputValues val = new OutputValues();
+            double actual =Convert.ToDouble(val.output(a,"", "",tip).Item1);
+            int actual1 = val.output(a,"", "", tip).Item3;
+            string actual2 = val.output(a,"","",tip).Item2;
+
+
+            //assert
+           Assert.AreEqual(expected.Item1, actual,delta, "Ожидаемый результат {0}, полученный результат {1}", expected.Item1, actual);
+           Assert.AreEqual(expected.Item3, actual1, "Ожидаемый результат {0}, полученный результат {1}", expected.Item3, actual1);
+           Assert.AreEqual(expected.Item2, actual2, "Ожидаемый результат {0}, полученный результат {1}", expected.Item2, actual2);
         }
     }
 }

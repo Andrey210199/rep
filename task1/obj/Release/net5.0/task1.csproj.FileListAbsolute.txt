@@ -1,0 +1,16 @@
+D:\Загрузки\Работа\task1\bin\Release\net5.0\task1.exe
+D:\Загрузки\Работа\task1\bin\Release\net5.0\task1.deps.json
+D:\Загрузки\Работа\task1\bin\Release\net5.0\task1.runtimeconfig.json
+D:\Загрузки\Работа\task1\bin\Release\net5.0\task1.runtimeconfig.dev.json
+D:\Загрузки\Работа\task1\bin\Release\net5.0\task1.dll
+D:\Загрузки\Работа\task1\bin\Release\net5.0\ref\task1.dll
+D:\Загрузки\Работа\task1\bin\Release\net5.0\task1.pdb
+D:\Загрузки\Работа\task1\obj\Release\net5.0\task1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Загрузки\Работа\task1\obj\Release\net5.0\task1.AssemblyInfoInputs.cache
+D:\Загрузки\Работа\task1\obj\Release\net5.0\task1.AssemblyInfo.cs
+D:\Загрузки\Работа\task1\obj\Release\net5.0\task1.csproj.CoreCompileInputs.cache
+D:\Загрузки\Работа\task1\obj\Release\net5.0\task1.dll
+D:\Загрузки\Работа\task1\obj\Release\net5.0\ref\task1.dll
+D:\Загрузки\Работа\task1\obj\Release\net5.0\task1.pdb
+D:\Загрузки\Работа\task1\obj\Release\net5.0\task1.genruntimeconfig.cache
+D:\Загрузки\Работа\task1\obj\Release\net5.0\task1.csproj.AssemblyReference.cache

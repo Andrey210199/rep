@@ -1,0 +1,6 @@
+D:\Загрузки\Работа\task3\bin\Release\net5.0\publish\task3.exe
+D:\Загрузки\Работа\task3\bin\Release\net5.0\publish\task3.dll
+D:\Загрузки\Работа\task3\bin\Release\net5.0\publish\task3.deps.json
+D:\Загрузки\Работа\task3\bin\Release\net5.0\publish\task3.runtimeconfig.json
+D:\Загрузки\Работа\task3\bin\Release\net5.0\publish\task3.pdb
+D:\Загрузки\Работа\task3\bin\Release\net5.0\publish\Newtonsoft.Json.dll

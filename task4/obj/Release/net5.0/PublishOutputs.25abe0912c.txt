@@ -1,0 +1,5 @@
+D:\Загрузки\Работа\task4\bin\Release\net5.0\publish\task4.exe
+D:\Загрузки\Работа\task4\bin\Release\net5.0\publish\task4.dll
+D:\Загрузки\Работа\task4\bin\Release\net5.0\publish\task4.deps.json
+D:\Загрузки\Работа\task4\bin\Release\net5.0\publish\task4.runtimeconfig.json
+D:\Загрузки\Работа\task4\bin\Release\net5.0\publish\task4.pdb

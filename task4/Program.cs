@@ -32,15 +32,15 @@ namespace task4
             int[] b = new int[mass.Length]; //Копия массива
             Array.Copy(mass, b, mass.Length);
 
-                int max = mass.Max();
-                int min = mass.Min();
-                int j = 0;
+            int max = mass.Max();
+            int min = mass.Min();
             int otvet = 0;
             int prover = 0;
 
             for (int i = min; i< max; i++ )
             {
-                while(j==0)
+                Array.Sort(b);
+                while (b[0] != b[b.Length - 1])
                 {
                     for (int k = 0; k < b.Length; k++)
                     {
@@ -57,13 +57,7 @@ namespace task4
                         
                     }
                     //Проверяет одинаковы ли перевый и последний элемент
-                    Array.Sort(b);
-                    if (b[0] == b[b.Length - 1])
-                    {
-                        j = 1;
-                        
-                    }
-                   
+                    Array.Sort(b);                  
                 }
                 
                 if (prover < otvet || otvet == 0)
@@ -73,7 +67,6 @@ namespace task4
 
                Array.Copy(mass, b, mass.Length); //Делает копию изначального массива
                 prover = 0;
-                j = 0;
 
             }
 

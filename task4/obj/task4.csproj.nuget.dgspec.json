@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Загрузки\\Работа\\task4\\task4.csproj": {}
+    "D:\\git\\rep\\rep\\task4\\task4.csproj": {}
   },
   "projects": {
-    "D:\\Загрузки\\Работа\\task4\\task4.csproj": {
+    "D:\\git\\rep\\rep\\task4\\task4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Загрузки\\Работа\\task4\\task4.csproj",
+        "projectUniqueName": "D:\\git\\rep\\rep\\task4\\task4.csproj",
         "projectName": "task4",
-        "projectPath": "D:\\Загрузки\\Работа\\task4\\task4.csproj",
+        "projectPath": "D:\\git\\rep\\rep\\task4\\task4.csproj",
         "packagesPath": "C:\\Users\\Andrey\\.nuget\\packages\\",
-        "outputPath": "D:\\Загрузки\\Работа\\task4\\obj\\",
+        "outputPath": "D:\\git\\rep\\rep\\task4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

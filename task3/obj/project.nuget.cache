@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VjmBQgOp4iTAuJanJqe19V5k9TqAWcrqXesUNlZZVYksjbYWayjHESWkxshKa7ZS8FQqLgnbLG7GPVQdH+c0FQ==",
+  "dgSpecHash": "V/4GuV8vm3Ffpt4xST2QDkfheyymqzH2NwJvdPw9UmKKc5ugU68w5zthNLRvEGVoQYzsnrfE/k8VxjCFOZnTgw==",
   "success": true,
-  "projectFilePath": "D:\\Загрузки\\Работа\\task3\\task3.csproj",
+  "projectFilePath": "D:\\git\\rep\\rep\\task3\\task3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrey\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

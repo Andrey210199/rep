@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.IO;
 using System.Diagnostics;
-using System.Text.Json;
 using Newtonsoft.Json.Linq;
+//using System.Text.Json;
 
 
 namespace task3
 {
 
     //json tests
-    public class Value3
+    public class Value2
     {
         public int id { get; set; }
         public string title { get; set; }
         public string value { get; set; }
-        public List<Value> values { get; set; }
+        public List<Value2> values { get; set; }
     }
 
     public class Test
@@ -27,7 +27,7 @@ namespace task3
         public int id { get; set; }
         public string title { get; set; }
         public string value { get; set; }
-        public List<Value3> values { get; set; }
+        public List<Value2> values { get; set; }
     }
 
     public class Root
@@ -47,108 +47,104 @@ namespace task3
         public List<Value> values { get; set; }
     }
 
-    //json report
-        class Report
-    {
-        public int id { get; set; }
-        public string title { get; set; }
-        public string value { get; set; }
-        public List<Value3> values { get; set; }
-    }
-
-
-
     class Program
     {
         static async Task Main(string[] args)
         {
-            string testre = Console.ReadLine();
-            string valure = Console.ReadLine();
+            // string testre = Console.ReadLine();
+            // string valure = Console.ReadLine();
+
+            string testre = "D:/Загрузки/Работа/tests.json";
+           string valure = "D:/Загрузки/Работа/values.json";
 
             var test = JsonConvert.DeserializeObject<Root>(File.ReadAllText(testre));
             var value = JsonConvert.DeserializeObject<Root1>(File.ReadAllText(valure));
             var reports = File.Exists("report.json");
 
+            JsonTextReader reader = new JsonTextReader(new StringReader(File.ReadAllText(testre)));
+            JsonTextReader reader1 = new JsonTextReader(new StringReader(File.ReadAllText(valure)));
 
-            string tes = "";
-            string idzap = "";
-            string idzap1 = "";
-            bool valuzap = false;
-            string idz = "";
+                string tes = "";
+                string idzap = "";
+                string idzap1 = "";
+                bool valuzap = false;
+                string idz = "";
 
-            JsonTextReader reader = new JsonTextReader(new StringReader(File.ReadAllText("tests.json")));
-            while (reader.Read())
-            {
-                if (valuzap != true)
+                while (reader.Read())
                 {
-                    if (reader.Value != null)
+                    if (valuzap != true)
                     {
-                        if (reader.Value.ToString() != "value")
+                        if (reader.Value != null)
                         {
-                            if (idzap1 == idzap)
+                            if (reader.Value.ToString() != "value")
                             {
-                                if (reader.Value.ToString() == "id")
+                                if (idzap1 == idzap)
                                 {
-                                    tes += "{"+reader.Value.ToString() + ":";
+                                    if (reader.Value.ToString() == "id")
+                                    {
+                                        tes += "{"+reader.Value.ToString() + ":";
 
-                                    idzap = reader.Value.ToString();
+                                        idzap = reader.Value.ToString();
 
-                                }
-                                else if (reader.Value.ToString() == "title")
-                                {
-                                    tes += reader.Value.ToString() + ":";
-                                }
-                                else if (reader.Value.ToString() == "values")
-                                {
-                                    tes += reader.Value.ToString() + ":";
-                                }
-                                else if(reader.Value.ToString() !="tests")
-                                {
-                                    tes += reader.Value.ToString() + ",";
+                                    }
+                                    else if (reader.Value.ToString() == "title")
+                                    {
+                                        tes += reader.Value.ToString() + ":";
+                                    }
+                                    else if (reader.Value.ToString() == "values")
+                                    {
+                                        tes += reader.Value.ToString() + ":";
+                                    }
+                                    else if(reader.Value.ToString() !="tests")
+                                    {
+                                        tes += reader.Value.ToString() + ",";
+                                    }
+                                    else
+                                    {
+                                        tes += "{";
+                                    }
                                 }
                                 else
                                 {
-                                    tes += "{[";
+                                    if (reader.Value.ToString() != "tests")
+                                    {
+                                        tes += reader.Value.ToString() + ",";
+                                    }
+                                    idz = reader.Value.ToString();
+                                    idzap = "";
+
                                 }
                             }
                             else
                             {
-                                if (reader.Value.ToString() != "tests")
-                                {
-                                    tes += reader.Value.ToString() + ",";
-                                }
-                                idz = reader.Value.ToString();
-                                idzap = "";
-
+                                tes += reader.Value.ToString() + ":";
+                                valuzap = true;
                             }
                         }
-                        else
-                        {
-                            tes += reader.Value.ToString() + ":";
-                            valuzap = true;
-                        }
+
                     }
-                    
-                }
-                else
-                {
-                    for (int i = 0; i < value.values.Count; i++)
+                    else
                     {
-                        if (Convert.ToInt32(idz) == value.values[i].id)
+                        for (int i = 0; i < value.values.Count; i++)
                         {
-                            tes += value.values[i].value.ToString() + "} ]";
-                            valuzap = false;
+                            if (Convert.ToInt32(idz) == value.values[i].id)
+                            {
+                                tes += value.values[i].value.ToString() + "},";
+                                valuzap = false;
+                            }
                         }
                     }
+
                 }
 
-            }
+            tes = tes.TrimEnd(',');
+                tes += "}";
 
-            tes += "}";
-            string json = JsonConvert.SerializeObject(tes);
+                string json = JsonConvert.SerializeObject(tes);
 
-            File.WriteAllText("report.json", JsonConvert.SerializeObject(json));
+                File.WriteAllText("report.json", JsonConvert.SerializeObject(tes));
 
+            Console.WriteLine(tes);
         }
 
     }

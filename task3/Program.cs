@@ -51,11 +51,9 @@ namespace task3
     {
         static async Task Main(string[] args)
         {
-            // string testre = Console.ReadLine();
-            // string valure = Console.ReadLine();
+             string testre = Console.ReadLine();
+             string valure = Console.ReadLine();
 
-            string testre = "D:/Загрузки/Работа/tests.json";
-           string valure = "D:/Загрузки/Работа/values.json";
 
             var test = JsonConvert.DeserializeObject<Root>(File.ReadAllText(testre));
             var value = JsonConvert.DeserializeObject<Root1>(File.ReadAllText(valure));
@@ -143,8 +141,6 @@ namespace task3
                 string json = JsonConvert.SerializeObject(tes);
 
                 File.WriteAllText("report.json", JsonConvert.SerializeObject(tes));
-
-            Console.WriteLine(tes);
         }
 
     }

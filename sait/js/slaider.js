@@ -321,7 +321,7 @@ function gentovar(imgsrc, idcont)
 
 		let tovarA = document.createElement("a");
 
-		tovarA.href = "";
+		tovarA.href = "Tovar.html";
 
 
 		// Добавление id элемента
@@ -360,7 +360,3 @@ function gentovar(imgsrc, idcont)
 	}
 
 }
-
-
-
-

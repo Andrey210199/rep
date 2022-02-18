@@ -296,6 +296,11 @@ span.sim-dot{
 	position: relative;
 }
 
+/*Страница товара*/
+.rec_content{
+   height: 310px;
+   overflow: hidden;
+}
 /*Футер*/
 footer{
 	flex:0 0 auto;
